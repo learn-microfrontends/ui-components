@@ -1,21 +1,19 @@
 import React from "react";
 import ReactDom from "react-dom";
-// import { createRoot } from "react-dom/client";
-
 import Button from "./src/Button";
+// import "./src/LitButton";
 
 const App = () => {
   return (
     <div>
-      <h1>Module Federation</h1>
+      <h1>Module Federated UI components</h1>
       <hr />
-      Button component: <Button>Click me</Button>
+      React Button component: <Button>Click me</Button>
+      <br />
+      {/* <br />
+      Lit Button component: <my-button title="Click me"></my-button> */}
     </div>
   );
 };
 
 ReactDom.render(<App />, document.getElementById("app"));
-
-// const container = document.getElementById("app");
-// const root = createRoot(container); // createRoot(container!) if you use TypeScript
-// root.render(<App />);
