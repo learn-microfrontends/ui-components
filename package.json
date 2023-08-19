@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sytac-webpack-module-federation/ui-components.git"
+    "url": "git+https://github.com/learn-microfrontends.github.io/ui-components.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sytac-webpack-module-federation/ui-components/issues"
+    "url": "https://github.com/learn-microfrontends.github.io/ui-components/issues"
   },
-  "homepage": "https://github.com/sytac-webpack-module-federation/ui-components#readme",
+  "homepage": "https://github.com/learn-microfrontends.github.io/ui-components#readme",
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-react": "^7.18.6",

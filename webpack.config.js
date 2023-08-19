@@ -3,15 +3,15 @@ const { ModuleFederationPlugin } = require("webpack").container;
 
 module.exports = {
   mode: "development",
-  //   target: "web",
+  target: "web",
   entry: "./index.js",
   output: {
     filename: "main.js",
     path: __dirname + "/dist",
   },
-  //   devServer: {
-  //     port: 3000,
-  //   },
+  devServer: {
+    port: 3000,
+  },
   module: {
     rules: [
       {
